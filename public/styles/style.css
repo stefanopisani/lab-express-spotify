@@ -7,6 +7,10 @@ body {
     background-color: #f1faee;
 }
 
+.tracks-cont {
+    background-color: #f1faee;
+}
+
 .main-container {
     margin: 0;
     padding: 0;
@@ -79,4 +83,11 @@ input {
     cursor: pointer;
     padding: 6px 16px;
     background-color: #c62e3b;
+}
+
+.the-tracks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
 }

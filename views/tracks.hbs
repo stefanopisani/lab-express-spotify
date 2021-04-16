@@ -1,15 +1,18 @@
 
-<div class="container">
-    <div class="raw">
+<div class="container tracks-cont">
+    <div class="row mt-5">
         {{#each tracks}}
-            <div class="col-md-4 m-3"> 
+        <div class="col-md-4">
+            <div class="track-name"> 
                 <h3> {{name}} </h3> 
             </div>
-            <div class="col-md-4"> 
+            <div class="track-song"> 
                 <figure>
                 <audio controls src="{{preview_url}}"> </audio>
                 </figure>
             </div>
+        </div>
         {{/each}}
     </div>
 </div>
+
