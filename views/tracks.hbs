@@ -1,0 +1,15 @@
+
+<div class="container">
+    <div class="raw">
+        {{#each tracks}}
+        <div class="col m-3"> 
+            <h3> {{name}} </h3> 
+        </div>
+        <div class="col"> 
+            <figure>
+            <audio controls src="{{preview_url}}"> </audio>
+            </figure>
+        </div>
+        {{/each}}
+    </div>
+</div>

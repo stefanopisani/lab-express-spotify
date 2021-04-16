@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu';
+    background-color: #f1faee;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/spotify-background.jpeg');
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form {
+    width: 650px;
+    height: 250px;
+    background-color: rgba(253, 245, 230, 0.488);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu';
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    font-size: 1.8rem;
+    color: rgb(126, 126, 126);
+    border-style: none;
+    border: 1px solid rgba(113, 113, 113, 0.249);
+}
+
+.search {
+    background-color: #e63946;
+    color: white;
+    border-style: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 7px 0;
+    width: 75%;
+}
+
+.search:hover {
+    cursor: pointer;
+    padding: 8px 2px;
+    background-color: #1D3557;
+}
+
+.tracks {
+    margin: 20px 0;
+}
+
+.red-links {
+    text-decoration: none;
+    color: white;
+    background-color: #e63946;
+    padding: 5px 15px;
+}
+
+.red-links:hover {
+    cursor: pointer;
+    padding: 6px 16px;
+    background-color: #c62e3b;
+}
