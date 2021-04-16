@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
-* {
-    font-family: 'Ubuntu';
-    background-color: #f1faee;
-}
-
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu';
+    background-color: #f1faee;
 }
 
 .main-container {
@@ -77,6 +74,8 @@ input {
 }
 
 .red-links:hover {
+    text-decoration: none;
+    color: white;
     cursor: pointer;
     padding: 6px 16px;
     background-color: #c62e3b;
